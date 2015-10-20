@@ -1,0 +1,5 @@
+/ID3 Algorithm/.classpath
+/ID3 Algorithm/.project
+/ID3 Algorithm/.settings/org.eclipse.jdt.core.prefs
+/ID3 Algorithm/bin/br/com/id3/*.class
+*.class
