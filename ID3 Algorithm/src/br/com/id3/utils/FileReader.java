@@ -16,6 +16,14 @@ import br.com.id3.record.Attribute;
 import br.com.id3.record.Record;
 
 public class FileReader {
+	/**
+	 * Abre o arquivo e le todos os registros e seus atributos. Ignorando a primeira linha
+	 * pois a mesma deve conter o cabeçalho da base de dados.
+	 * 
+	 * @param path
+	 * @param attributes
+	 * @return
+	 */
 	public static List<Record> readDataset(String path, ListDiscreteAttributes attributes) {
 		ArrayList<Record> records = new ArrayList<Record>();
 		
