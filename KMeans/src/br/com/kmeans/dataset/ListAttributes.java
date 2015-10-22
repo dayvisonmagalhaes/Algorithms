@@ -1,14 +1,11 @@
-package br.com.id3.dataset;
+package br.com.kmeans.dataset;
 
 import java.util.LinkedList;
 
-import br.com.id3.dataset.AttributeInfo;
-import br.com.id3.dataset.DiscreteAttributeValues;
-
-public class ListDiscreteAttributes {
+public class ListAttributes {
 	LinkedList<AttributeInfo> listAttributes;
 
-	public ListDiscreteAttributes() {
+	public ListAttributes() {
 		this.listAttributes = new LinkedList<AttributeInfo>();
 	}
 	
@@ -44,22 +41,6 @@ public class ListDiscreteAttributes {
 		}
 	
 		this.listAttributes.add(position, new AttributeInfo(key));
-	}
-	
-	/**
-	 * Obtem a lista de valores que o atributo pode assumir
-	 * 
-	 * @param key
-	 * @return
-	 */
-	public DiscreteAttributeValues getAttributeValues(String key) {
-		for(AttributeInfo attribute : this.listAttributes) {
-			if(attribute.getName().equals(key)) {
-				return attribute.getListAttributes();
-			}
-		}
-		
-		return null;
 	}
 	
 	/**
@@ -120,15 +101,15 @@ public class ListDiscreteAttributes {
 	 * Copia os valores do objeto para um novo objeto
 	 * 
 	 */
-	public ListDiscreteAttributes clone() {
+	public ListAttributes clone() {
 		LinkedList<AttributeInfo> attributes = new LinkedList<AttributeInfo>();
 		
 		attributes.addAll(this.listAttributes);
 		
-		return new ListDiscreteAttributes(attributes);
+		return new ListAttributes(attributes);
 	}
 
-	public ListDiscreteAttributes(LinkedList<AttributeInfo> listAttributes) {
+	public ListAttributes(LinkedList<AttributeInfo> listAttributes) {
 		super();
 		this.listAttributes = listAttributes;
 	}
