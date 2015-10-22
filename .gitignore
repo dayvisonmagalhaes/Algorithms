@@ -23,3 +23,7 @@
 /ID3 Algorithm/.settings/org.eclipse.wst.jsdt.ui.superType.name
 /ID3 Algorithm/.settings/org.eclipse.wst.validation.prefs
 /RemoteSystemsTempFiles
+/KMeans/.classpath
+/KMeans/.gitignore
+/KMeans/.project
+/KMeans/.settings/org.eclipse.jdt.core.prefs
