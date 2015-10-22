@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 public class Record {
 	private LinkedList<Attribute> attributes;
+	private int group;
 
 	/**
 	 * Obtem a lista de atributos do registro
@@ -21,5 +22,13 @@ public class Record {
 	 */
 	public void setAttributes(LinkedList<Attribute> attributes) {
 		this.attributes = attributes;
+	}
+
+	public int getGroup() {
+		return group;
+	}
+
+	public void setGroup(int group) {
+		this.group = group;
 	}
 }
