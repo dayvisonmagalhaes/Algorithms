@@ -124,10 +124,12 @@ public class ID3 {
 		root.children[0] = new Node();
 		root.children[0].setParent(root);
 		
-		int classAttributePositionRecord = Utils.getAttributePositionOnRecords(chosen, records.get(0));
-		int resultPosition = Utils.getMajority(root.getData(), learningSet.getAttributeInfo(learningSet.getAttributeQuantity() - 1).getListAttributes(), classAttributePositionRecord);
+		if(records.size() > 0) {
+			int classAttributePositionRecord = Utils.getAttributePositionOnRecords(chosen, records.get(0));
+			int resultPosition = Utils.getMajority(root.getData(), learningSet.getAttributeInfo(learningSet.getAttributeQuantity() - 1).getListAttributes(), classAttributePositionRecord);
 		
-		root.children[0].getTestAttribute().setValue(chosen.getListAttributes().getValue(resultPosition));			
+			root.children[0].getTestAttribute().setValue(chosen.getListAttributes().getValue(resultPosition));
+		}
 		
 		return root;
 	}
