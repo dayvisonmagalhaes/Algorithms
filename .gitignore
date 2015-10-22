@@ -3,3 +3,23 @@
 /ID3 Algorithm/.settings/org.eclipse.jdt.core.prefs
 /ID3 Algorithm/bin/br/com/id3/*.class
 *.class
+/C4.5 Algorithm/*.classpath
+/C4.5 Algorithm/*.gitignore
+/C4.5 Algorithm/*.project
+/ID3 Algorithm/bin
+/.metadata
+/C4.5 Algorithm/.settings/*.jsdtscope
+/C4.5 Algorithm/.settings/*.prefs
+/C4.5 Algorithm/.settings/*.component
+/C4.5 Algorithm/.settings/*.xml
+/C4.5 Algorithm/.settings/*.container
+/C4.5 Algorithm/.settings/*.name
+/ID3 Algorithm/.gitignore
+/ID3 Algorithm/.settings/.jsdtscope
+/ID3 Algorithm/.settings/org.eclipse.m2e.core.prefs
+/ID3 Algorithm/.settings/org.eclipse.wst.common.component
+/ID3 Algorithm/.settings/org.eclipse.wst.common.project.facet.core.xml
+/ID3 Algorithm/.settings/org.eclipse.wst.jsdt.ui.superType.container
+/ID3 Algorithm/.settings/org.eclipse.wst.jsdt.ui.superType.name
+/ID3 Algorithm/.settings/org.eclipse.wst.validation.prefs
+/RemoteSystemsTempFiles
