@@ -6,6 +6,11 @@ public class Record {
 	private LinkedList<Attribute> attributes;
 	private int group;
 
+	public Record () {
+		this.attributes = new LinkedList<Attribute>();
+		this.group = -1;
+	}
+	
 	/**
 	 * Obtem a lista de atributos do registro
 	 * 
