@@ -22,7 +22,7 @@ public class Start {
 	public static void main(String[] args) {
 		
 		//Caminho para a pasta onde será lido o arquivo com a base de dados
-		String path = "C:\\Users\\davidson.sestaro\\Dropbox\\IA\\";
+		String path = "";
 		
 		//Carrega os atributos da base de dados
 		ListDiscreteAttributes attributes = FileReader.readAttributes(path + "PlayGolf.txt");
