@@ -1,4 +1,4 @@
-package br.com.kmeans.centers;
+package br.com.kmeans.centroid;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -6,11 +6,11 @@ import java.util.List;
 
 import br.com.kmeans.record.Record;
 
-public class Centroide {
+public class Centroid {
 	private List<Record> records;
 	private LinkedList<Double> centers;
 	
-	public Centroide() {
+	public Centroid() {
 		this.records = new ArrayList<Record>();
 		this.centers = new LinkedList<Double>();
 	}
